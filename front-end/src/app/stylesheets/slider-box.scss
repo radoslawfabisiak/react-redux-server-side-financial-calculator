@@ -1,0 +1,70 @@
+.slider_box{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2185d0+0,1678c2+100 */
+  background: #2185d0; /* Old browsers */
+  background: -moz-linear-gradient(left, #2185d0 0%, #1678c2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #2185d0 0%,#1678c2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #2185d0 0%,#1678c2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2185d0', endColorstr='#1678c2',GradientType=1 ); /* IE6-9 */
+  color: #fff;
+  &:first-child {
+    border-radius: 30px 30px 0 0;
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    border-bottom: 2px solid #0071C1;
+  }
+  .title{
+    float: left;
+    font-size: 1em;
+    padding-top: 0.2em;
+    font-weight: 300;
+  }
+  .number{
+    float:right;
+    width:35%;
+    position:relative;
+    input{
+      height: 1.5em;
+      float: right;
+      width: calc(100% - 0.5em);
+      font-weight: 100;
+      color: #999;
+      padding-left: 0.5em;
+      font-size: 1em;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border: none;
+    }
+  }
+  .number:after{
+    position: absolute;
+    right: 1em;
+    top: 14%;
+    font-size: 1em;
+    font-weight: 100;
+    color: #999;
+    @media (max-width: 930) {
+      display:none;
+    }
+  }
+  .Q:after{
+    content: '$';
+  }
+  .Days:after{
+    content: 'Days';
+  }
+  .range{
+    margin-top: 30px;
+    width: 100%;
+    opacity: 0.2;
+  }
+  .min{
+    float: left;
+    font-weight: 100;
+  }
+  .max{
+    float: right;
+    font-weight: 100;
+  }
+}
+

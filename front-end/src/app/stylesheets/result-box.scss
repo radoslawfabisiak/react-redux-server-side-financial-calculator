@@ -1,0 +1,19 @@
+.result_box{
+  font-weight:300;
+  padding-top: 1em !important;
+  padding-bottom: 0em !important;
+  .name{
+    float:left;
+    margin-bottom:1em;
+  }
+  .result{
+    float:right;
+    margin-bottom:1em;
+  }
+  .has_border{
+    border-bottom:1px solid #e7e7e7;
+  }
+  .is_bold{
+    font-weight:900;
+  }
+}
